@@ -7,6 +7,7 @@ function addAndRemoveElements(arr) {
             result.pop();
         }
     }
+    console.log(result);
     if (result.length <= 0) {
         console.log('Empty');
     }
